@@ -1,0 +1,150 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Kavenegar/1.0.0": {
+        "dependencies": {
+          "DNTPersianUtils.Core": "5.4.5",
+          "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
+          "KavenegarDotNetCore": "1.0.7",
+          "Selenium.Support": "4.4.0",
+          "Selenium.WebDriver": "4.4.0",
+          "Selenium.WebDriver.ChromeDriver": "124.0.6367.20100",
+          "Selenium.WebDriver.GeckoDriver": "0.31.0.1"
+        },
+        "runtime": {
+          "Kavenegar.dll": {}
+        }
+      },
+      "DNTPersianUtils.Core/5.4.5": {
+        "runtime": {
+          "lib/net6.0/DNTPersianUtils.Core.dll": {
+            "assemblyVersion": "5.4.5.0",
+            "fileVersion": "5.4.5.0"
+          }
+        }
+      },
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {
+            "assemblyVersion": "3.11.0.0",
+            "fileVersion": "3.11.0.0"
+          }
+        }
+      },
+      "KavenegarDotNetCore/1.0.7": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Kavenegar.Core.dll": {
+            "assemblyVersion": "1.0.7.0",
+            "fileVersion": "1.0.7.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "Selenium.Support/4.4.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.4.0"
+        },
+        "runtime": {
+          "lib/net5.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.4.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/124.0.6367.20100": {},
+      "Selenium.WebDriver.GeckoDriver/0.31.0.1": {}
+    }
+  },
+  "libraries": {
+    "Kavenegar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DNTPersianUtils.Core/5.4.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UfCq9Px3Nmlk17S+RHH6J8lwyRAtjTk+C9H71CRdqQ1fZUPjusM86WTIGRQnw0iY0HlEnxWw5jIPObnAcCHBAQ==",
+      "path": "dntpersianutils.core/5.4.5",
+      "hashPath": "dntpersianutils.core.5.4.5.nupkg.sha512"
+    },
+    "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xc6jVVl5ymgk3ZNWnC/KHxkEup1QpnwYbrwF+NQoCOGERsD8YMlLwmsX4lGhLXCLo/YQTRTIwlKCN9E/doGUNg==",
+      "path": "dotnetseleniumextras.waithelpers/3.11.0",
+      "hashPath": "dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512"
+    },
+    "KavenegarDotNetCore/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9joBx8ImirWstKqy1kDJHPKUlNujC1iFjinCjej/z+vWyPpayxGdjDwBS7gTbxrh6Cbmj1F7oibtrbYy4RDOBQ==",
+      "path": "kavenegardotnetcore/1.0.7",
+      "hashPath": "kavenegardotnetcore.1.0.7.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    },
+    "Selenium.Support/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nxXOJVT2iV9qcCJhESRCrX3RnKF+O+71JORSIm6J5zOrLFsyVaGA37Jr1chFHO3NQ+MNrMM1vHLlgEPFmWPwgQ==",
+      "path": "selenium.support/4.4.0",
+      "hashPath": "selenium.support.4.4.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gg/fFUW+SQEdOMaZvkKSau6m4xbMG2qBW6cCW6nGW1CtO0coA8OLYpHcQLpsKcc6q68i/Uq1wjtiVfiNXykJUQ==",
+      "path": "selenium.webdriver/4.4.0",
+      "hashPath": "selenium.webdriver.4.4.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/124.0.6367.20100": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vucvtUxUAQrc48yxzjoUMhULVCDoasZu8nedDiUZuZ1CLBXT3ME66U99PNoZOInNxXdLKuGsYgJvvLoxgubJNQ==",
+      "path": "selenium.webdriver.chromedriver/124.0.6367.20100",
+      "hashPath": "selenium.webdriver.chromedriver.124.0.6367.20100.nupkg.sha512"
+    },
+    "Selenium.WebDriver.GeckoDriver/0.31.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-39nhn8qjgssE/Q/G23m+X9AiVcK71z8hRYmN3yeCVV9LZ9Y/E5s8eAwi6h52KLEnOxqcq23hsV4D4Hu2GYxRJQ==",
+      "path": "selenium.webdriver.geckodriver/0.31.0.1",
+      "hashPath": "selenium.webdriver.geckodriver.0.31.0.1.nupkg.sha512"
+    }
+  }
+}
