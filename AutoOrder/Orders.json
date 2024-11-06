@@ -1,0 +1,68 @@
+[
+  {
+    "Customer": {
+      "Mobile": "09302230035",
+      "Password": "thisisaseleniumtest"
+    },
+    "Products": [
+      {
+        "ProductId": "1923",
+        "Quantity": "2"
+      },
+      {
+        "ProductId": "1912",
+        "Quantity": "2"
+      }
+    ],
+    "Address": {
+      "Name": "Alireza",
+      "LastName": "Mousavi",
+      "Mobile": "09302230035",
+      "NationalCode": "2111033103",
+      "Province": "تهران",
+      "City": "تهران",
+      "Area": "منطقه 10",
+      "PostalAddress": "خیابان کلهر",
+      "PostalCode": "1313131313"
+    },
+    "CustomerDescription": "این یک تست است",
+    "Gateway": "ملت",
+    "SMSMobile": "09302230035",
+    "OrderCount": 2,
+    "OrderDelayToSeconds": {
+      "Min": 70,
+      "Max": 100
+    }
+  },
+  {
+    "Customer": {
+      "Mobile": "09911191908",
+      "Password": "thisisaseleniumtest"
+    },
+    "Products": [
+      {
+        "ProductId": "6",
+        "Quantity": "1"
+      }
+    ],
+    "Address": {
+      "Name": "Alireza",
+      "LastName": "Mousavi",
+      "Mobile": "09302230035",
+      "NationalCode": "2111033103",
+      "Province": "تهران",
+      "City": "تهران",
+      "Area": "منطقه 10",
+      "PostalAddress": "خیابان کلهر غربی",
+      "PostalCode": "1313131313"
+    },
+    "CustomerDescription": "this is a test",
+    "Gateway": "زرین پال",
+    "SMSMobile": "09302230035",
+    "OrderCount": 1,
+    "OrderDelayToSeconds": {
+      "Min": 70,
+      "Max": 100
+    }
+  }
+]
